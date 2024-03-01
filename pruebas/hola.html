@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dos Columnas con Grid</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: grid;
+            grid-template-rows: auto 1fr auto; /* Filas para encabezado, contenido y pie de página */
+            min-height: 100vh; /* Establecer altura al 100% de la ventana */
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Dos columnas con igual ancho */
+            gap: 20px; /* Espaciado entre columnas */
+            padding: 1em;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Encabezado de la Página</h1>
+    </header>
+
+    <main>
+        <div>
+            <h2>Columna 1</h2>
+            <p>Contenido de la primera columna.</p>
+        </div>
+        <div>
+            <h2>Columna 2</h2>
+            <p>Contenido de la segunda columna.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Pie de Página - © 2024</p>
+    </footer>
+
+</body>
+</html>

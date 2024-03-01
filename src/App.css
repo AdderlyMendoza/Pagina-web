@@ -1,0 +1,26 @@
+
+.div-principal{
+    text-align: center;
+    background-color: #f8f8f5;
+}
+
+.div-derecha {
+    margin-top: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.e-u-amor {
+    color: #719567;
+    font-size: large;
+}
+
+.f-a {
+    color: #df6e82;
+    margin-bottom: 20px;
+}
+
+.mundo {
+    margin-bottom: 1px;
+    color: #c2b2ad;
+}

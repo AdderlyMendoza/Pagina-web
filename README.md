@@ -1,0 +1,5 @@
+- git init
+- git add .
+- git commit -m "Update repo"
+- git remote add origin https://github.com/AdderlyMendoza/primera-pag-web-react.git
+- git push origin master

@@ -1,0 +1,12 @@
+html, body {
+    font-family: Alata, Muli;
+    height: 100%;
+    margin: 0;
+    background-color: #222;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
